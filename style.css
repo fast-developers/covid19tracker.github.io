@@ -1,0 +1,44 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Fredoka One', cursive;
+}
+nav h6{
+	color: #fff;
+}
+.home-class{
+	text-align: center;
+	margin-top: 200px;
+	color: #fff;
+}
+body{
+	background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.covid:after{
+	content: "";
+	animation: cov 5s infinite;
+	color: #222;
+}
+@keyframes cov{
+	0%{content: "Tracker"}
+	10%{content: "Be Alert!"}
+	20%{content: "Tracker"}
+	30%{content: "Be Alert!"}
+	40%{content: "Tracker"}
+	50%{content: "Be Alert!"}
+	60%{content: "Tracker"}
+	70%{content: "Be Alert!"}
+	80%{content: "Tracker"}
+	90%{content: "Be Alert!"}
+	100%{content: "Tracker"}
+}
+.about{
+	text-align: center;
+	color: #222;
+	background-color: #fff;
+	margin-top: 250px;
+}
